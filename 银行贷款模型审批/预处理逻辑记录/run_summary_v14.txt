@@ -1,0 +1,34 @@
+银行贷款审批预测 - 预处理 V1.4 运行摘要
+============================================================
+原始训练集: (43980, 22)
+原始测试集: (25733, 21)
+时间切分: 前 80% Train / 后 20% Valid
+训练部分: 35184 行, 正样本 518, 正样本率 1.472260%
+验证部分: 8796 行, 正样本 156, 正样本率 1.773533%
+最终特征数: 22
+V1.4 暂不入模字段: Employer_Code
+Age 训练中位数: 29.0
+最终 NaN 总数: train=0, valid=0, test=0
+最终特征列表:
+  - Monthly_Income
+  - Existing_EMI
+  - Var1
+  - Loan_Amount
+  - Loan_Period
+  - Loan_Info_Missing
+  - Age
+  - Age_Missing
+  - DTI
+  - Log_Income
+  - Loan_to_Income
+  - EMI_Zero_Flag
+  - Gender
+  - City_Category
+  - Employer_Category1
+  - Employer_Category2
+  - Customer_Existing_Primary_Bank_Code
+  - Primary_Bank_Type
+  - Source
+  - Source_Category
+  - City_Code
+  - Age_Bin

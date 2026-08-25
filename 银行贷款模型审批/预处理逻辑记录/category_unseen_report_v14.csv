@@ -1,0 +1,10 @@
+﻿feature,valid_unseen_pct,test_unseen_pct
+Gender,0.0,0.0
+City_Category,0.0,0.0
+Employer_Category1,0.0,0.0
+Employer_Category2,0.0,0.0
+Customer_Existing_Primary_Bank_Code,0.0,0.1282
+Primary_Bank_Type,0.0,0.0
+Source,0.1137,0.0
+Source_Category,0.0,0.0
+City_Code,0.3865,0.3808

@@ -1,0 +1,22 @@
+﻿Feature,是否入模,预测时点,原因
+ID,❌,T0,主键，无直接预测意义
+Gender,✅,T0,申请时可得
+DOB,❌→衍生Age,T0,原始日期不直接入模，衍生 Age / Age_Bin
+Lead_Creation_Date,❌→仅排序/切分,T0,申请时间用于时间排序、切分与年龄计算
+City_Code,✅,T0,申请时可得
+City_Category,✅,T0,申请时可得
+Employer_Code,❌（V1.4主模型暂移除）,T0,V1.3 中验证/测试未见类别比例过高，时间泛化不稳定；后续可单独研究更稳健编码
+Employer_Category1,✅,T0,申请时可得
+Employer_Category2,✅,T0,申请时可得
+Monthly_Income,✅,T0,申请时可得
+Customer_Existing_Primary_Bank_Code,✅,T0,申请时可得
+Primary_Bank_Type,✅,T0,申请时可得
+Source,✅,T0,申请渠道，申请时可得
+Source_Category,✅,T0,申请渠道分类，申请时可得
+Existing_EMI,✅,T0,现有负债，申请时可得
+Loan_Amount,✅,T0,申请金额
+Loan_Period,✅,T0,申请期限
+Var1,✅,T0,匿名脱敏特征
+Contacted,❌,T1,申请后发生，预测时点不可得
+Interest_Rate,❌,T1,审批/定价后才生成
+EMI,❌,T1,审批/定价后才生成
